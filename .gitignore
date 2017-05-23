@@ -12,3 +12,6 @@ projects/*
 .DS_Store?
 ehthumbs.db
 Thumbs.db
+
+# Don't ignore
+!projects/example-project
