@@ -39,6 +39,8 @@ Inside the root folder, there is a folder named **projects**. This folder is whe
 After that, you need to create a new **server** block inside the files on the folder **confs**. You can you the examples inside the file. If you want an http project, use the file **http.conf**, if it's https, **https.conf**. 
 After that, you need to restart the docker container.
 
+**PS.:** Even if you put all your projects inside **projects** folder, inside the nginx conf, on the server block the root folder of the project will always be /**usr/share/nginx/YOUR-PROJECT-NAME**
+
 ```sh
 $ sudo docker-compose restart
 ```
